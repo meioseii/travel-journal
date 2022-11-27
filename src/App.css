@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Inter';
+  border: px solid black;
+}
+
+body {
+  margin: 0px;
+  min-height: 100vh;
+}
+
+.nav-bar {
+  background-color: #F55A5A;
+  color: white;
+  height: 82.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: 22.5px;
+  font-weight: 500;
+  line-height: 26.25px;
+}
+
+.nav-bar img {
+  height: 36px;
+  width: 36px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  padding: 60px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+
+.section .location-img {
+  height: 336px;
+  width: 250px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.mark {
+  width: 14px;
+  height: 20px;
+}
+
+.country {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.17em;
+  margin-left: 8px;
+  margin-right: 18px;
+}
+
+.countryUrl {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #918E9B;
+}
+
+.countryUrl:visited {
+  color: #918E9B;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.date {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 18px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
